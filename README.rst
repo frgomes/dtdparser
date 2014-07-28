@@ -1,10 +1,14 @@
 A DTD Parser retrieved from http://www.rpbourret.com/dtdparser/index.htm
 
+This repository was created from the original DTDParser version 2.0 beta as made
+available by the original author, Ronald Bourret. Some minor changes were applied
+in order to compile properly on Java 5+ and produce pristine javadocs.
+
 Below you see an almost intact copy of the above webpage:
 
 
-DTD Parser, Version 2.0
-=======================
+DTD Parser
+==========
 
 The DTD Parser is a set of Java packages for exploring DTDs. For example, it
 could be used by software that generates a database schema or Java classes from a
@@ -17,17 +21,17 @@ DTD. The following components are included:
 * Complete source code
 * Complete documentation
 
-This is the 2.0 beta version. No changes between this and the release version are
-anticipated.
+The DTD parser, is freely available for use in both commercial and non-commercial
+settings. It is not copyrighted and has absolutely no warranty. Use it as you
+will.
 
-The DTD parser, along with its source code, is freely available for use in both
-commercial and non-commercial settings. It is not copyrighted and has absolutely
-no warranty. Use it as you will.
 
 Usage
 -----
 
-See:
+See: Example of `code generation`_
+
+.. _`code generation` : https://github.com/frgomes/dtdparser/blob/master/samples/ClassGenerator.java
 
 
 Related software
