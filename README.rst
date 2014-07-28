@@ -29,7 +29,7 @@ will.
 Usage
 -----
 
-See: Example of `code generation`_
+Example of `code generation`_
 
 .. _`code generation` : https://github.com/frgomes/dtdparser/blob/master/samples/ClassGenerator.java
 
