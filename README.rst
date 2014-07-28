@@ -4,7 +4,8 @@ This repository was created from the original DTDParser version 2.0 beta as made
 available by the original author, Ronald Bourret. Some minor changes were applied
 in order to compile properly on Java 5+ and produce pristine javadocs.
 
-Below you see an almost intact copy of the above webpage:
+Below you see a modified copy of the original project's webpage:
+
 
 
 DTD Parser
