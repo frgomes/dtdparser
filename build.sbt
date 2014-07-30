@@ -9,6 +9,22 @@ organization := "com.github.frgomes"
 // Project version. Only release version (w/o SNAPSHOT suffix) can be promoted.
 version := "2.0" 
 
+
+
+crossPaths := false
+
+publishMavenStyle := true
+
+publishTo := {
+  val nexus = "https://oss.sonatype.org/"
+  if (isSnapshot.value)
+    Some("snapshots" at nexus + "content/repositories/snapshots")
+  else
+    Some("releases"  at nexus + "service/local/staging/deploy/maven2")
+}
+
+
+
 // To sync with Maven central, you need to supply the following information:
 pomExtra := {
   <url>http://github.com/frgomes/dtdparser</url>
