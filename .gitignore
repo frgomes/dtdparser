@@ -1,12 +1,5 @@
 *~
 #[^#]+#
-*.pyc
-*.egg-info
-*.egg
-*.o
-*.a
-.cache
-.coverage
 .ensime
 .ensime_lucene/
 /.idea/
@@ -15,4 +8,3 @@
 /dist/
 target/
 logs/
-java/
