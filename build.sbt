@@ -20,7 +20,7 @@ pomExtra := {
   </licenses>
   <scm>
     <connection>scm:git:github.com/frgomes/dtdparser.git</connection>
-    <developerConnection>scm:git:git@github.com:frgomes/dtdparser</developerConnection>
+    <developerConnection>scm:git:git@github.com:frgomes/dtdparser.git</developerConnection>
     <url>http://github.com/frgomes/dtdparser</url>
   </scm>
   <developers>
